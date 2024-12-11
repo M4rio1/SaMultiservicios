@@ -30,19 +30,19 @@ function Navbar() {
         <div className="collapse navbar-collapse nav-links" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ms-auto nav-links font-sans font-semibold">
             <li className="nav-item">
-              <Link to="/" className="nav-link">Inicio</Link>
+              <a href="/" className="nav-link">Inicio</a>
             </li>
             <li className="nav-item">
-              <Link to="/Nosotros" className="nav-link">Nosotros</Link>
+              <a href="/Nosotros" className="nav-link">Nosotros</a>
             </li>
             <li className="nav-item">
-              <Link to="/Servicios" className="nav-link">Servicios</Link>
+              <a href="/Servicios" className="nav-link">Servicios</a>
             </li>
             <li className="nav-item">
-              <Link to="/Blog" className="nav-link">Blog</Link>
+              <a href="/Blog" className="nav-link">Blog</a>
             </li>
             <li className="nav-item">
-              <Link to="/Contacto" className="nav-link">Contacto</Link>
+              <a href="/Contacto" className="nav-link">Contacto</a>
             </li>
             <div class="paste-button nav-item">
               <a class="btn-s nav-link">Sitios de interes ▼</a>

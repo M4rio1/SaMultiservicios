@@ -128,3 +128,22 @@
       margin-bottom: 1rem;
     }
   }
+  .btn-card-home {
+    transform: translate(-50%, 125%);
+    width: 50%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #0d9cbf;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+  }
+  .card-home:hover .btn-card-home {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+  }

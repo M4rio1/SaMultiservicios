@@ -12,6 +12,7 @@ import AsesoriaFinanciera from './pages/servicios/AsesoriaFinanciera';
 import ServiciosContables from './pages/servicios/ServiciosContables';
 import AuditoriaEstados from './pages/servicios/AuditoriaEstados';
 import Tramites from './pages/servicios/Tramites';
+import NotFound from './components/NotFound';
 import "./App.css";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/Servicios/servicios-contables" element={<ServiciosContables />} />
           <Route path="/Servicios/auditoria-estados" element={<AuditoriaEstados />} />
           <Route path="/Servicios/Tramites" element={<Tramites />} />
+          <Route path="*" element={<NotFound />} />          
         </Routes>
       </Layout>
     </Router>

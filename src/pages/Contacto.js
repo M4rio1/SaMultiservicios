@@ -7,13 +7,13 @@ function Contacto() {
     <div className="bg-banner mb-12">
     <div class="overlay bg-black/60">
 			<div class="container">
-				<h2 className="font-sans text-3xl text-white mb-3 font-black">CONTACTO</h2>
+				<h1 className="font-sans text-3xl text-white mt-8 font-black animate__animated animate__fadeInDown">CONTACTO</h1>
 			</div>
 		</div>
    </div>
   <section className='section-spacing container contact-section'>
     <div className="contact-form">
-      <span class="heading text-center">Formulario de contacto</span>
+      <h2 class="heading text-center">Formulario de contacto</h2>
       <form>
         <label for="name">Nombre:</label>
         <input type="text" required=""/>
