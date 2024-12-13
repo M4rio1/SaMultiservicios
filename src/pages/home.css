@@ -1,3 +1,42 @@
+.flex-container {
+  display: flex;
+  height: 100vh;
+  justify-content: left;
+  
+  position: relative;
+}
+.content-wrapper {
+  position: relative;
+  padding: 20px;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .content-wrapper {
+    margin-top: auto;
+  }
+}
+.text-container {
+  max-width: 1200px;
+  margin-top: 10rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: auto;
+}
+@media (max-width: 768px) {
+  .text-container {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.container-mt-home {
+  margin-top: -10rem;
+}
+@media (max-width: 768px) {
+  .container-mt-home {
+    margin-top: auto;
+  }
+}
 /* From Uiverse.io by alexroumi */ 
 .btn1 {
     padding: 15px 25px;
@@ -16,10 +55,10 @@
    }
    @media (max-width: 768px) {
     .btn1 {
-      margin-bottom: 300px;
+      margin-bottom: auto;
     }
   }
-   .btn1::before {
+.btn1::before {
     content: "";
     position: absolute;
     top: 0;
@@ -32,16 +71,14 @@
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     transition: all 250ms
-   }
-   
-   .btn1:hover {
+} 
+.btn1:hover {
     color: #e8e8e8;
-   }
-   
-   .btn1:hover::before {
+}
+.btn1:hover::before {
     width: 100%;
-   }
-   .timeline {
+}
+.timeline {
     padding-left: 40px;
     margin-left: 20px;
     border-left: 1px solid #232935;
@@ -115,7 +152,7 @@
   }
   @media (max-width: 768px) {
     .section-mt{
-      margin-top: -4rem;
+      margin-top: auto;
     }
   }
   .mb-home {
@@ -134,7 +171,7 @@
     border-radius: 1rem;
     border: none;
     background-color: #023799;
-    color: #ffffffda;
+    color: #ffffff;
     font-size: 1rem;
     padding: .5rem 1rem;
     position: absolute;

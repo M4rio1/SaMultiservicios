@@ -4,26 +4,26 @@ import "./home.css";
 function Header() {
   return (
     <>
-      <div class="flex h-screen content-center items-center justify-center mb-home">
-        <div className="absolute top-0 h-full w-full bg-banner  bg-cover bg-center"></div>
-          <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center"></div>
-            <div className="container absolute ">
-              <div className="flex flex-wrap items-center">
-                <div className="ml-auto mr-auto w-full px-4 text-left lg:w-8/12">
-                  <h1 className="block antialiased tracking-normal font-sans text-5xl leading-tight text-white mb-4 font-black animate__animated animate__fadeInLeft">ASESORIA CONTABLE Y FISCAL.</h1>
-                  <h2 className="block antialiased tracking-normal font-sans text-3xl leading-tight text-white mb-8 font-black animate__animated animate__fadeInLeft">Responsabilidad Puntualidad y confianza</h2>
-                  <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-white opacity-90 mb-8 animate__animated animate__fadeInLeft">
-                    Somos una firma especializada en ofrecer soluciones integrales a pequeñas y medianas empresas en Guatemala. Contamos con amplia experiencia en Auditoría, Servicios Contables, Impuestos Fiscales y Consultoría Financiera. Nuestro compromiso es ayudarte a optimizar tus procesos, garantizar el cumplimiento normativo y fortalecer la toma de decisiones estratégicas con un enfoque profesional, eficiente y personalizado.
-                  </p>
-                  <a href='/Servicios'>
-                    <button className='btn1 animate__animated animate__fadeInUpBig'> Ver Servicios</button>
-                  </a>
+        <div className="bg-banner">
+          <div className="overlay bg-black/60">
+            <div className='flex-container'>
+              <div className="content-wrapper">
+                  <div className="text-container">
+                      <h1 className="block antialiased tracking-normal font-sans text-5xl leading-tight text-white mb-4 font-black animate__animated animate__fadeInLeft">ASESORIA CONTABLE Y FISCAL.</h1>
+                      <h2 className="block antialiased tracking-normal font-sans text-3xl leading-tight text-white mb-8 font-black animate__animated animate__fadeInLeft">Responsabilidad Puntualidad y confianza</h2>
+                      <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-white opacity-90 mb-8 animate__animated animate__fadeInLeft">
+                        Somos una firma especializada en ofrecer soluciones integrales a pequeñas y medianas empresas en Guatemala. Contamos con amplia experiencia en Auditoría, Servicios Contables, Impuestos Fiscales y Consultoría Financiera. Nuestro compromiso es ayudarte a optimizar tus procesos, garantizar el cumplimiento normativo y fortalecer la toma de decisiones estratégicas con un enfoque profesional, eficiente y personalizado.
+                      </p>
+                      <a href='/Servicios'>
+                        <button className='btn1 animate__animated animate__fadeInUpBig'> Ver Servicios</button>
+                      </a>  
+                  </div>
                 </div>
-              </div>
             </div>
+          </div>
         </div>
     <div className="section-mt bg-white px-4 pb-20 pt-4 ">
-      <div className='container mx-auto'>
+      <div className='container mx-auto container-mt-home'>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           <div className="card-home relative flex flex-col bg-clip-border bg-white text-gray-700 rounded-lg shadow-lg shadow-gray-500/10 animate__animated animate__fadeInUp">
               <div className="p-6 px-8 text-center">

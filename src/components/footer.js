@@ -7,8 +7,8 @@ function Footer() {
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start">Copyright &copy; SaMultiservicios 2024</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <ul class="wrapper ">
+                    <div class="col-lg-4 my-3 my-lg-0 ">
+                        <ul class="wrapper align-items-center">
                             <a href='https://www.facebook.com/' target='__blank' className='a-btn'>
                                 <li class="icon facebook">
                                     <a class="tooltip">Facebook</a>

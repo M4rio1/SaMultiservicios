@@ -1,11 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/layout';
-import Navbar from './components/navbar';
 import Header from './pages/home';
 import Nosotros from './pages/Nosotros';
 import Servicios from './pages/Servicios';
-import Footer from './components/footer';
 import Contacto from './pages/Contacto';
 import Blog from "./pages/Blog";
 import AsesoriaFinanciera from './pages/servicios/AsesoriaFinanciera';
@@ -33,8 +31,6 @@ function App() {
         </Routes>
       </Layout>
     </Router>
-
   );
 }
-
 export default App;

@@ -11,4 +11,4 @@
         { "source": "/Servicios/tramites", "destination": "/index.html" },
         { "source": "/(.*)", "destination": "/index.html" }
     ]
-  }
+}
