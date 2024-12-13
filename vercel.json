@@ -1,0 +1,14 @@
+{
+    "rewrites": [
+        { "source": "/", "destination": "/index.html" },
+        { "source": "/Servicios", "destination": "/index.html" },
+        { "source": "/Nosotros", "destination": "/index.html" },
+        { "source": "/Contacto", "destination": "/index.html" },
+        { "source": "/Blog", "destination": "/index.html" },
+        { "source": "/Servicios/asesoria-financiera", "destination": "/index.html" },
+        { "source": "/Servicios/servicios-contables", "destination": "/index.html" },
+        { "source": "/Servicios/auditoria-estados", "destination": "/index.html" },
+        { "source": "/Servicios/tramites", "destination": "/index.html" },
+        { "source": "/(.*)", "destination": "/index.html" }
+    ]
+  }
