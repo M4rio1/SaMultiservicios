@@ -93,9 +93,10 @@ function ServiciosContables(){
     </div>
     <div className="section-spacing">
         <div className="container mx-auto">
-            <div className="mb-20 block antialiased tracking-normal font-sans text-3xl leading-tight font-black text-center animate__animated animate__fadeInDown">
+            <div className="mb-12 block antialiased tracking-normal font-sans text-3xl leading-tight font-black text-center animate__animated animate__fadeInDown">
                 <h2>Sectores que atendemos</h2>
             </div>
+            <div className='separator mb-12'></div>
             <div className="opt-serv antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600">
                 <div className="opt">
                     <div className="mb-3 list-borde" onClick={() => manejarClick("contribuyentes")}>

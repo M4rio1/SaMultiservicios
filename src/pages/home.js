@@ -76,7 +76,7 @@ function Header() {
               <h2 class="block antialiased tracking-normal font-sans text-3xl leading-tight mb-8 font-black text-center">Nuestros Beneficios</h2>
             </div>
             <div className='separator mb-8'></div>
-            <div class="benefit-list">
+            <div class="benefit-list font-sans">
               <div class="benefit-card">
                 <i class="bi bi-shield-fill-check"></i>
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-shield-fill-check" viewBox="0 0 16 16">

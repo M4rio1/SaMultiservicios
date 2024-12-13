@@ -1,7 +1,7 @@
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #001c39d4;
   }
   #mainNav .navbar-toggler {
     padding: 1rem;
@@ -57,7 +57,7 @@
     #mainNav.navbar-shrink {
       padding-top: 1rem;
       padding-bottom: 1rem;
-      background-color: #222222e7;
+      background-color: #001c39d4;
     }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.25em;
