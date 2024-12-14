@@ -96,17 +96,17 @@ function AsesoriaFinanciera(){
         <div className="bg-banner mb-12">
             <div class="overlay bg-black/60">
 			    <div class="container">
-				    <h1 className="font-sans text-3xl text-white mb-3 mt-3 font-black animate__animated animate__fadeInDown">Asesoria financiera y fiscal</h1>
+				    <h1 className="cormorant-sc-bold text-3xl text-white mb-3 mt-3 font-black animate__animated animate__fadeInDown">Asesoria financiera y fiscal</h1>
 			    </div>
 		    </div>
         </div>
         <div className="section-spacing">
             <div className="container mx-auto">
-                <div className="mb-12 block antialiased tracking-normal font-sans text-3xl leading-tight font-black text-center animate__animated animate__fadeInDown">
+                <div className="mb-12 block antialiased tracking-normal cormorant-sc-bold text-3xl leading-tight font-black text-center animate__animated animate__fadeInDown">
                     <h2>Soluciones personalizadas para hacer crecer tu negocio</h2>
                 </div>
                 <div className='separator mb-12'></div>
-                <div className="opt-serv antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600">
+                <div className="opt-serv antialiased font-inter text-base leading-relaxed font-normal text-blue-gray-600">
                     <div className="opt">
                         <div className="mb-3 list-borde" onClick={() => manejarClick("consultoria")}>
                             <i class="bi bi-clipboard-data-fill"></i>
@@ -161,10 +161,10 @@ function AsesoriaFinanciera(){
                         </div>                    
                     </div>
                     <div id="detalles" className="mt-3 p-6 bg-gray-100 rounded-lg shadow more-info">
-                        <h3 className="text-lg font-bold">Detalles del Servicio</h3>
-                        <h2 className="text-center mt-3 text-xl font-black">{detalles.titulo}</h2>
+                        <h3 className="text-lg font-black cormorant-sc-bold">Detalles del Servicio</h3>
+                        <h2 className="text-center mt-3 text-xl font-black cormorant-sc-bold">{detalles.titulo}</h2>
                         <p className="mt-4">{detalles.descripcion}</p>
-                        <h3 className="mt-3 mb-3 font-black">Beneficios del servicio:</h3>
+                        <h3 className="mt-3 mb-3 font-black cormorant-sc-bold">Beneficios del servicio:</h3>
                         <ul>
                             {detalles.lista.map((item, index) => (
                                 <li key={index}>{item}</li>

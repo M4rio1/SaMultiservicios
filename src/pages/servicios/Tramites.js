@@ -57,7 +57,7 @@ function Tramites(){
         <div className="bg-banner mb-12">
             <div class="overlay bg-black/60">
 			    <div class="container">
-				    <h2 className="font-sans text-3xl text-white mb-3 font-black animate__animated animate__fadeInDown">TRAMITES</h2>
+				    <h2 className="cormorant-sc-bold text-3xl text-white mb-3 font-black animate__animated animate__fadeInDown">TRAMITES</h2>
 			    </div>
 		    </div>
         </div>
@@ -66,7 +66,7 @@ function Tramites(){
                 <div className="mb-12 block antialiased tracking-normal font-sans text-3xl leading-tight font-black text-center">
                     <h2></h2>
                 </div>
-                <div className="opt-serv antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600">
+                <div className="opt-serv antialiased font-inter text-base leading-relaxed font-normal text-blue-gray-600">
                     <div className="opt">
                         <div className="mb-3 list-borde" onClick={() => manejarClick("AperturayCierre")}>
                             <i class="bi bi-buildings-fill"></i>
@@ -131,8 +131,8 @@ function Tramites(){
                         </div>
                     </div>
                     <div id="detalles" className="mt-3 p-6 bg-gray-100 rounded-lg shadow more-info">
-                        <h3 className="text-lg font-bold">Detalles del Servicio</h3>
-                        <h2 className="text-center mt-3 text-xl font-black">{detalles.titulo}</h2>
+                        <h3 className="text-lg font-bold cormorant-sc-bold">Detalles del Servicio</h3>
+                        <h2 className="text-center mt-3 text-xl font-black cormorant-sc-bold">{detalles.titulo}</h2>
                         <p className="mt-4">{detalles.descripcion}</p>
                     </div>
                 </div>

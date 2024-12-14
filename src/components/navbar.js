@@ -28,7 +28,7 @@ function Navbar() {
           </i>
         </button>
         <div className="collapse navbar-collapse nav-links" id="navbarResponsive">
-          <ul className="navbar-nav text-uppercase ms-auto nav-links font-sans font-semibold">
+          <ul className="navbar-nav text-uppercase ms-auto nav-links font-inter font-semibold">
             <li className="nav-item">
               <a href="/" className="nav-link">Inicio</a>
             </li>

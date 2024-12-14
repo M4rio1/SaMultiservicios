@@ -7,7 +7,7 @@ function Contacto() {
     <div className="bg-banner mb-12">
     <div class="overlay bg-black/60">
 			<div class="container">
-				<h1 className="font-sans text-3xl text-white mt-8 font-black animate__animated animate__fadeInDown">CONTACTO</h1>
+				<h1 className="cormorant-sc-bold text-3xl text-white mt-8 font-black animate__animated animate__fadeInDown">CONTACTO</h1>
 			</div>
 		</div>
    </div>
