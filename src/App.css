@@ -55,6 +55,9 @@
 .mt-8 {
   margin-top: 2rem;
 }
+.mt-12 {
+  margin-top: 4rem;
+}
 .justify-center {
   justify-content: center;
 }
@@ -130,20 +133,16 @@
   line-height: 1;
 }
 .font-sans {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Bodoni Moda', serif;
+}
+.font-inter {
+  font-family: inter, sans-serif;
 }
 .block {
   display: block;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
-  margin: 0;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: inherit;
 }
 .opacity-90 {
   opacity: .9;

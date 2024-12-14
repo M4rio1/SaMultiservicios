@@ -35,7 +35,7 @@ function Servicios() {
                 <div className='img-serv mb-3'>
                   <img src={asesoriaimg} alt='Asesoria financiera y fiscal' className='border-rad img-serv'/>
                 </div>
-                <p class="block antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600 mb-3">Ofrecemos una oportuna asesoría podrá tener el control de sus finanzas, para una buena toma de decisiones y pueda alcanzar sus objetivos y crecimiento.
+                <p class="block antialiased font-inter text-base leading-relaxed font-normal text-blue-gray-600 mb-3">Ofrecemos una oportuna asesoría podrá tener el control de sus finanzas, para una buena toma de decisiones y pueda alcanzar sus objetivos y crecimiento.
                 </p>
                 <a href='/Servicios/Asesoria-financiera'>
                   <button className='btn-serv'>Más información</button>
@@ -55,7 +55,7 @@ function Servicios() {
                 <div className='img-serv mb-3'>
                   <img src={contableimg} alt='Servicios contables'className='border-rad img-serv'/>
                 </div>
-                <p class="block antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600 mb-3">Con nuestro servicio contable tendrá la confianza del manejo de su contabilidad, con información oportuna y pago de impuestos de manera correcta, con buenas estrategias fiscales que representes a la empresa ahorro de dinero.</p>
+                <p class="block antialiased font-inter text-base leading-relaxed font-normal text-blue-gray-600 mb-3">Con nuestro servicio contable tendrá la confianza del manejo de su contabilidad, con información oportuna y pago de impuestos de manera correcta, con buenas estrategias fiscales que representes a la empresa ahorro de dinero.</p>
                 <a href='/Servicios/servicios-contables'>
                   <button className='btn-serv'>Más información</button>
                 </a>
@@ -71,7 +71,7 @@ function Servicios() {
                 <div className='img-serv mb-3'>
                   <img src={financieroimg} alt='Estados financieros' className='border-rad img-serv'/>
                 </div>
-                <p class="block antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600 mb-3">Brindamos un análisis exhaustivo y confiable de tus estados financieros, asegurando que reflejen fielmente la situación económica de tu empresa. Nuestra auditoría ayuda a la toma de decisiones estratégicas.</p>
+                <p class="block antialiased font-inter text-base leading-relaxed font-normal text-blue-gray-600 mb-3">Brindamos un análisis exhaustivo y confiable de tus estados financieros, asegurando que reflejen fielmente la situación económica de tu empresa. Nuestra auditoría ayuda a la toma de decisiones estratégicas.</p>
                 <button className='btn-serv'>Más información</button>
               </div>
           </div>
@@ -86,7 +86,7 @@ function Servicios() {
                 <div className='img-serv mb-3'>
                   <img src={tramitesimg} alt='Tramites' className='border-rad img-serv'/>
                 </div>
-                <p class="block antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600 mb-3">Con nuestro servicio de trámites simplificamos tus gestiones administrativas. Te ayudamos a cumplir con tus obligaciones legales y regulatorias de manera eficiente, ahorrándote tiempo y esfuerzos.</p>
+                <p class="block antialiased font-inter text-base leading-relaxed font-normal text-blue-gray-600 mb-3">Con nuestro servicio de trámites simplificamos tus gestiones administrativas. Te ayudamos a cumplir con tus obligaciones legales y regulatorias de manera eficiente, ahorrándote tiempo y esfuerzos.</p>
                 <a href='/Servicios/Tramites'>
                   <button className='btn-serv'>Más información</button>
                 </a>
@@ -102,7 +102,7 @@ function Servicios() {
                 <div className='img-serv mb-3'>
                   <img src={aduanaimg} alt='Servicios aduaneros' className='border-rad img-serv'/>
                 </div>
-                <p class="block antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600 mb-3">Ofrecemos apoyo especializado en procesos aduaneros para garantizar que tus operaciones de importación y exportación cumplan con las normativas legales. Aseguramos rapidez y precisión en cada paso.</p>
+                <p class="block antialiased font-inter text-base leading-relaxed font-normal text-blue-gray-600 mb-3">Ofrecemos apoyo especializado en procesos aduaneros para garantizar que tus operaciones de importación y exportación cumplan con las normativas legales. Aseguramos rapidez y precisión en cada paso.</p>
                 <button className='btn-serv'>Más información</button>
               </div>
           </div>
