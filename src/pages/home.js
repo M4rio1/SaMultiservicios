@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  } from '@fortawesome/free-regular-svg-icons';
+import { faFileShield, faHeadset, faPiggyBank, faUserTie } from '@fortawesome/free-solid-svg-icons';
 import "./home.css";
 
 function Header() {
@@ -12,10 +15,11 @@ function Header() {
               <p className="p-home animate__animated animate__fadeInLeft">
                 Somos una firma especializada en ofrecer soluciones integrales a pequeñas y medianas empresas en Guatemala. Contamos con amplia experiencia en Auditoría, Servicios Contables, Impuestos Fiscales y Consultoría Financiera. Nuestro compromiso es ayudarte a optimizar tus procesos, garantizar el cumplimiento normativo y fortalecer la toma de decisiones estratégicas con un enfoque profesional, eficiente y personalizado.
               </p>
-              <a href='/Servicios'>
-                <button className='btn1 animate__animated animate__fadeInUpBig'> Ver Servicios</button>
-              </a>
-
+              <div className='btn1-container'>
+                <a href='/Servicios'>
+                  <button className='btn1 animate__animated animate__fadeInUpBig'> Ver Servicios</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -61,7 +65,7 @@ function Header() {
               <h2 class="block antialiased tracking-normal cormorant-sc-bold text-xl font-semibold leading-snug text-blue-gray-900 mb-2 mt-3">Servicios Contables</h2>
               <p class="block antialiased font-inter text-base leading-relaxed font-normal text-blue-gray-600">Con nuestro servicio contable tendrá la confianza del manejo de su contabilidad, con información oportuna y pago de impuestos de manera correcta, con buenas estrategias fiscales que representes a la empresa ahorro de dinero.</p>
               <a href='/Servicios/servicios-contables'>
-                  <button className='btn-card-home font-inter'>Mas información</button>
+                  <button className='btn-card-home'>Mas información</button>
               </a>
             </div>
           </div>
@@ -69,43 +73,30 @@ function Header() {
         <div className="mt-32 flex flex-wrap items-center">
           <div class="container">
             <div>
-              <h2 class="block antialiased tracking-normal font-sans text-3xl leading-tight mb-8 font-black text-center">Porque elegirnos:</h2>
+              <h2 class="block antialiased tracking-normal font-sans text-3xl leading-tight mb-8 text-center">Porque elegirnos:</h2>
             </div>
             <div className='separator mb-8'></div>
-            <div class="benefit-list font-sans">
+            <div class="benefit-list">
               <div class="benefit-card">
-                <i class="bi bi-shield-fill-check"></i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-shield-fill-check" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.8 11.8 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7 7 0 0 0 1.048-.625 11.8 11.8 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.54 1.54 0 0 0-1.044-1.263 63 63 0 0 0-2.887-.87C9.843.266 8.69 0 8 0m2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793z"/>
-                </svg>
-                <h3 className='b-title cormorant-sc-bold mt-3'>Cumplimiento Normativo Garantizado</h3>
+                <FontAwesomeIcon icon={faFileShield} size='2x' className='valor-icon'/>
+                <h3 className='b-title'>Cumplimiento Normativo Garantizado</h3>
                 <p className='font-inter'>Siempre estarás al día con las leyes fiscales y contables, eliminando riesgos legales.</p>
               </div>
               <div class="benefit-card">
-                <i class="bi bi-graph-up-arrow"></i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5"/>
-                </svg>
-                <h3 className='b-title cormorant-sc-bold mt-3' >Optimización de Recursos</h3>
+                <FontAwesomeIcon icon={faPiggyBank} size='2x' className='valor-icon'/>
+                <h3 className='b-title' >Optimización de Recursos</h3>
                 <p className='font-inter'>Aumenta tus ingresos y reduce costos con nuestras estrategias fiscales inteligentes.</p>
               </div>
               <div class="benefit-card">
-                <i class="bi bi-headset"></i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
-                  <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
-                </svg>
-                <h3 className='b-title cormorant-sc-bold mt-3'>Atención Rápida y Eficiente</h3>
+                <FontAwesomeIcon icon={faHeadset} size='2x' className='valor-icon'/>
+                <h3 className='b-title'>Atención Rápida y Eficiente</h3>
                 <p className='font-inter'>Resolvemos tus dudas de manera ágil y ofrecemos soporte constante.</p>
               </div>
               <div class="benefit-card">
-                <i class="bi bi-briefcase-fill"></i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
-                  <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5"/>
-                  <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z"/>
-                </svg>
-                <h3 className='b-title cormorant-sc-bold mt-3'>Asesoría Integral</h3>
+                <FontAwesomeIcon icon={faUserTie} size='2x' className='valor-icon'/>
+                <h3 className='b-title'>Asesoría Integral</h3>
                 <p className='font-inter'>Contabilidad, impuestos, auditoría y planeación financiera en un solo lugar.</p>
-             </div>
+              </div>
             </div>
           </div>
         </div>

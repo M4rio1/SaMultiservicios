@@ -99,16 +99,19 @@
     margin-right: auto;
   }
 }
-
+.btn1-container {
+  text-align: center;
+}
 .btn1 {
-  margin-top: 8rem;
+  margin-top: 3rem;
   padding: 15px 25px;
   border: unset;
-  border-radius: 15px;
+  border-radius: 5px;
   color: #ffffff;
   background: #013794;
   position: relative;
-  font-weight: 1000;
+  font-weight: 600;
+  font-family: Inter, sans-serif;
   font-size: 17px;
   transition: all 250ms;
 }
@@ -125,7 +128,7 @@
     left: 0;
     height: 100%;
     width: 0;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: #0c94c2;
     z-index: -1;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
@@ -156,34 +159,40 @@
   }
   
   .benefit-list {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: row;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
   }
-  
+  @media (max-width: 768px) {
+    .benefit-list {
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 16px;
+      grid-row-gap: 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    .benefit-list {
+      grid-template-columns: 1fr;
+      grid-row-gap: 20px;
+    }
+  }
   .benefit-card {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 20px;
-    transition: transform 0.3s, box-shadow 0.3s;
+    grid-row-gap: 24px;
+    flex-direction: column;
+    align-items: left;
+    display: flex;
   }
-  
-  .benefit-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  }
-  
-  .benefit-card i {
-    font-size: 2.5rem;
-    color: #007bff;
-    margin-bottom: 15px;
-  }
-  
   .benefit-card .b-title {
     font-size: 1.5rem;
-    font-weight: 600;
+    font-family: cormorant-sc, serif;
+    font-weight: 500;
     margin-bottom: 10px;
     color: #000000;
   }
