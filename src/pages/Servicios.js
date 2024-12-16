@@ -72,7 +72,9 @@ function Servicios() {
                   <img src={financieroimg} alt='Estados financieros' className='border-rad img-serv'/>
                 </div>
                 <p class="block antialiased font-inter text-base leading-relaxed font-normal text-blue-gray-600 mb-3">Brindamos un análisis exhaustivo y confiable de tus estados financieros, asegurando que reflejen fielmente la situación económica de tu empresa. Nuestra auditoría ayuda a la toma de decisiones estratégicas.</p>
-                <button className='btn-serv'>Más información</button>
+                <a href='/Servicios/auditoria-estados'>
+                  <button className='btn-serv'>Más información</button>
+                </a>
               </div>
           </div>
           <div className="relative flex flex-col bg-clip-border bg-white text-gray-700 rounded-lg shadow-lg shadow-gray-500/10">

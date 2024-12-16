@@ -5,7 +5,19 @@
             "destination": "/index.html"
         },
         {
-            "source": "/Servicios/(.*)",
+            "source": "/Servicios/Asesoria-financiera",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/Servicios/Servicios-contables",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/Servicios/Auditoria-estados",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/Servicios/Tramites",
             "destination": "/index.html"
         }
     ]
