@@ -16,7 +16,7 @@ function Contacto() {
   </div>
   <section className='section-spacing container contact-section'>
     <form class="form">
-      <p class="title">Formilario de contacto</p>
+      <p class="title">Formulario de contacto</p>
       <p class="message">Ingrese sus datos para enviar un mensaje</p>
       <div class="flex">
         <label>
