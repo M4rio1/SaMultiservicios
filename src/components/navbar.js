@@ -44,14 +44,14 @@ function Navbar() {
             <li className="nav-item">
               <a href="/Contacto" className="nav-link">Contacto</a>
             </li>
-            <div class="paste-button nav-item">
+            <li class="paste-button nav-item">
               <a class="btn-s nav-link">Sitios de interes ▼</a>
               <div class="dropdown-content">
                 <a id="top" href="https://declaraguate.sat.gob.gt/declaraguate-web/" target='_blank'>declaraguate</a>
                 <a id="middle" href="https://portal.sat.gob.gt/portal/verificador-integrado/" target='_blank'>verificador integrado</a>
                 <a id="bottom" href="https://portal.sat.gob.gt/portal/" target='_blank'>Agencia Virtual</a>
               </div>
-            </div>
+            </li>
           </ul>
         </div>
       </div>
