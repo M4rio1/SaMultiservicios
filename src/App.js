@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import Layout from './components/layout';
 import Header from './pages/home';
 import Nosotros from './pages/Nosotros';
