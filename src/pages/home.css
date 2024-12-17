@@ -100,17 +100,17 @@
   }
 }
 .btn1-container {
-  text-align: center;
+  text-align: left;
 }
 .btn1 {
-  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
   padding: 15px 25px;
   border: unset;
-  border-radius: 5px;
+  border-radius: 20px;
   color: #ffffff;
   background: #013794;
   position: relative;
-  font-weight: 600;
   font-family: Inter, sans-serif;
   font-size: 17px;
   transition: all 250ms;
@@ -128,7 +128,7 @@
     left: 0;
     height: 100%;
     width: 0;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #0c94c2;
     z-index: -1;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);

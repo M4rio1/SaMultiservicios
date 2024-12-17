@@ -289,8 +289,8 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .box-animate {
-  overflow: hidden; /* Evita desbordamientos */
-  position: relative; /* Asegura el contexto de posición */
+  overflow: hidden;
+  position: relative;
 }
 .cormorant-sc-light {
   font-family: "Cormorant SC", serif;

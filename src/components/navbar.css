@@ -1,12 +1,17 @@
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #001c39d4;
+    background: linear-gradient(135deg, rgba(4, 32, 64, 0.603), rgba(4, 32, 64, 0.521));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0px 0px 20px 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   }
   #mainNav .navbar-toggler {
     padding: 1rem;
     font-size: 0.75rem;
-    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
     text-transform: uppercase;
     font-weight: 900;
   }
@@ -40,10 +45,14 @@
   
   @media (min-width: 992px) {
     #mainNav {
-      padding-top: 1.5rem;
+      padding-top: 1rem;
       padding-bottom: 1.5rem;
       border: none;
+      background: none;
       background-color: transparent;
+      backdrop-filter: none;
+      border-radius: none;
+      box-shadow: none;
       transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     }
     #mainNav .navbar-brand {
@@ -57,7 +66,12 @@
     #mainNav.navbar-shrink {
       padding-top: 1rem;
       padding-bottom: 1rem;
-      background-color: #001c39d4;
+      background: linear-gradient(135deg, rgba(4, 32, 64, 0.719), rgba(4, 32, 64, 0.596));
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 0px 0px 20px 20px;
+      border:1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.25em;
@@ -88,14 +102,17 @@
   position: absolute;
   z-index: 1;
   min-width: 200px;
-  background-color: #212121;
-  border: 2px solid #2a2f3b;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg, rgba(4, 32, 64, 0.548), rgba(4, 32, 64, 0.507));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 0px 0px 20px 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .dropdown-content a {
   color: #ffffff;
+  text-shadow: 10px 5px 10px rgb(0, 0, 0);
   padding: 8px 10px;
   text-decoration: none;
   display: block;
@@ -113,11 +130,11 @@
 }
 
 .dropdown-content #top:hover {
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 
 .dropdown-content #bottom:hover {
-  border-radius: 0px 0px 13px 13px;
+  border-radius: 0px 0px 20px 20px;
 }
 
 .paste-button:hover .btn-s {
@@ -127,4 +144,9 @@
 .paste-button:hover .dropdown-content {
   display: block;
 }
+.icon-down {
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
 

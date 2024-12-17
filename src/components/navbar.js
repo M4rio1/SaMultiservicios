@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faBars} from '@fortawesome/free-solid-svg-icons';
+import {faBars, faChevronDown} from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import "./navbar.css";
 import logo from '../LOGO3.png';
@@ -10,7 +10,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div className="container">
         <a className="navbar-brand img" href="/">
-           <img src={logo} alt='logo'
+           <img src={logo} alt='SaMultiservicios'
            className='navbar-logo'
            />
         </a>
@@ -24,11 +24,11 @@ function Navbar() {
           aria-label="Toggle navigation"
         >
           <i className="">
-          <FontAwesomeIcon icon={faBars}/>
+          <FontAwesomeIcon icon={faBars} size='2x' style={{color: '#fff'}}/>
           </i>
         </button>
         <div className="collapse navbar-collapse nav-links" id="navbarResponsive">
-          <ul className="navbar-nav text-uppercase ms-auto nav-links font-inter font-semibold">
+          <ul className="navbar-nav text-uppercase ms-auto nav-links font-inter ">
             <li className="nav-item">
               <a href="/" className="nav-link">Inicio</a>
             </li>
@@ -45,7 +45,7 @@ function Navbar() {
               <a href="/Contacto" className="nav-link">Contacto</a>
             </li>
             <li class="paste-button nav-item">
-              <a class="btn-s nav-link">Sitios de interes ▼</a>
+              <a class="btn-s nav-link">Sitios de interes <FontAwesomeIcon icon={faChevronDown} size='1x' style={{color: '#fff'}} className='icon-down'/></a>
               <div class="dropdown-content">
                 <a id="top" href="https://declaraguate.sat.gob.gt/declaraguate-web/" target='_blank'>declaraguate</a>
                 <a id="middle" href="https://portal.sat.gob.gt/portal/verificador-integrado/" target='_blank'>verificador integrado</a>
