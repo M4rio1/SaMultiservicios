@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars, faChevronDown} from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
 import "./navbar.css";
 import logo from '../LOGO3.png';
 

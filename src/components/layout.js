@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './navbar';
 import Footer from './footer';
+import FloatingWhatsApp from './contact-btn';
 
 function Layout({ children }) {
   return (
@@ -10,6 +11,7 @@ function Layout({ children }) {
         {children}
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
