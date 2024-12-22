@@ -1,29 +1,28 @@
-
 .contact-section {
-    display: flex;
-    gap: 2rem;
-    align-items: flex-start;
-    max-width: auto;
-    margin: auto;
-    padding: 1rem;
-  }
-  @media (max-width: 768px) {
-    .contact-section {
-      flex-direction: column;
-    }
-  } 
-  .contact-info {
-    display: flex;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  max-width: auto;
+  margin: auto;
+  padding: 1rem;
+}
+@media (max-width: 768px) {
+  .contact-section {
     flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
-    max-width: auto;
-    position: relative;
   }
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: auto;
+  position: relative;
+}
 .icon-info {
   color: #1949a8;
 }
-/* From Uiverse.io by Yaya12085 */ 
+/* From Uiverse.io by Yaya12085 */
 .form {
   display: flex;
   flex-direction: column;
@@ -47,7 +46,8 @@
   padding-left: 30px;
 }
 
-.title::before,.title::after {
+.title::before,
+.title::after {
   position: absolute;
   content: "";
   height: 16px;
@@ -69,7 +69,8 @@
   animation: pulse 1s linear infinite;
 }
 
-.message, .signin {
+.message,
+.signin {
   color: rgba(88, 87, 87, 0.822);
   font-size: 14px;
 }
@@ -117,7 +118,7 @@
   border-radius: 10px;
   color: #fff;
   font-size: 16px;
-  transform: .3s ease;
+  transform: 0.3s ease;
 }
 
 .submit:hover {

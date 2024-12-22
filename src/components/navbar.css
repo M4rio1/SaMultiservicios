@@ -1,99 +1,108 @@
 #mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: linear-gradient(
+    135deg,
+    rgba(4, 32, 64, 0.603),
+    rgba(4, 32, 64, 0.521)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 0px 0px 20px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+#mainNav .navbar-toggler {
+  padding: 1rem;
+  font-size: 0.75rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.navbar-logo {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    height: 40px;
+  }
+}
+#mainNav .navbar-brand {
+  color: #fafafa;
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+#mainNav .navbar-brand img {
+  height: 3rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #6a6c72;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background: none;
+    background-color: transparent;
+    backdrop-filter: none;
+    border-radius: none;
+    box-shadow: none;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand img {
+    height: 4rem;
+    transition: height 0.3s ease-in-out;
+  }
+  #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background: linear-gradient(135deg, rgba(4, 32, 64, 0.603), rgba(4, 32, 64, 0.521));
+    background: linear-gradient(
+      135deg,
+      rgba(4, 32, 64, 0.719),
+      rgba(4, 32, 64, 0.596)
+    );
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0px 0px 20px 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   }
-  #mainNav .navbar-toggler {
-    padding: 1rem;
-    font-size: 0.75rem;
-    border-radius: 10px;
-    text-transform: uppercase;
-    font-weight: 900;
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
   }
-  .navbar-logo {
-    width: 100%;
-    height: auto;
-  }
-  
-  @media (max-width: 768px) {
-    .navbar-logo {
-      height: 40px; 
-    }
-  }
-  #mainNav .navbar-brand {
-    color: #fafafa;
-    font-weight: 700;
-    letter-spacing: 0.0625em;
-    text-transform: uppercase;
-  }
-  #mainNav .navbar-brand img {
+  #mainNav.navbar-shrink .navbar-brand svg,
+  #mainNav.navbar-shrink .navbar-brand img {
     height: 3rem;
   }
-  #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 1rem;
-    color: #fff;
-    letter-spacing: 0.0625em;
+  #mainNav .navbar-nav .nav-item {
+    margin-right: 1rem;
   }
-  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #6a6c72;
+  #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
   }
-  
-  @media (min-width: 992px) {
-    #mainNav {
-      padding-top: 1rem;
-      padding-bottom: 1.5rem;
-      border: none;
-      background: none;
-      background-color: transparent;
-      backdrop-filter: none;
-      border-radius: none;
-      box-shadow: none;
-      transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
-    }
-    #mainNav .navbar-brand {
-      font-size: 1.5em;
-      transition: font-size 0.3s ease-in-out;
-    }
-    #mainNav .navbar-brand img {
-      height: 4rem;
-      transition: height 0.3s ease-in-out;
-    }
-    #mainNav.navbar-shrink {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      background: linear-gradient(135deg, rgba(4, 32, 64, 0.719), rgba(4, 32, 64, 0.596));
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border-radius: 0px 0px 20px 20px;
-      border:1px solid rgba(255, 255, 255, 0.18);
-      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    }
-    #mainNav.navbar-shrink .navbar-brand {
-      font-size: 1.25em;
-    }
-    #mainNav.navbar-shrink .navbar-brand svg,
-    #mainNav.navbar-shrink .navbar-brand img {
-      height: 3rem;
-    }
-    #mainNav .navbar-nav .nav-item {
-      margin-right: 1rem;
-    }
-    #mainNav .navbar-nav .nav-item:last-child {
-      margin-right: 0;
-    }
-  }
+}
 .paste-button {
   position: relative;
   display: block;
 }
 
 .btn-s {
- text-decoration: dashed;
+  text-decoration: dashed;
 }
 
 .dropdown-content {
@@ -102,11 +111,15 @@
   position: absolute;
   z-index: 1;
   min-width: 200px;
-  background: linear-gradient(135deg, rgba(4, 32, 64, 0.548), rgba(4, 32, 64, 0.507));
+  background: linear-gradient(
+    135deg,
+    rgba(4, 32, 64, 0.548),
+    rgba(4, 32, 64, 0.507)
+  );
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 0px 0px 20px 20px;
-  border:1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
@@ -148,5 +161,3 @@
   margin-left: 10px;
   margin-top: 2px;
 }
-
-
