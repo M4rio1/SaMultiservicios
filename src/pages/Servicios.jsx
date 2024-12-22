@@ -56,7 +56,7 @@ function Servicios() {
                   finanzas, para una buena toma de decisiones y pueda alcanzar
                   sus objetivos y crecimiento.
                 </p>
-                <a href="/Servicios/Asesoria-financiera">
+                <a href="/Asesoria-financiera">
                   <button className="btn-serv">Más información</button>
                 </a>
               </div>
@@ -84,7 +84,7 @@ function Servicios() {
                   impuestos de manera correcta, con buenas estrategias fiscales
                   que representes a la empresa ahorro de dinero.
                 </p>
-                <a href="/Servicios/servicios-contables">
+                <a href="/servicios-contables">
                   <button className="btn-serv">Más información</button>
                 </a>
               </div>
@@ -112,7 +112,7 @@ function Servicios() {
                   económica de tu empresa. Nuestra auditoría ayuda a la toma de
                   decisiones estratégicas.
                 </p>
-                <a href="/Servicios/auditoria-estados">
+                <a href="/auditoria-estados">
                   <button className="btn-serv">Más información</button>
                 </a>
               </div>
@@ -140,7 +140,7 @@ function Servicios() {
                   legales y regulatorias de manera eficiente, ahorrándote tiempo
                   y esfuerzos.
                 </p>
-                <a href="/Servicios/Tramites">
+                <a href="/Tramites">
                   <button className="btn-serv">Más información</button>
                 </a>
               </div>
