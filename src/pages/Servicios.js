@@ -56,7 +56,7 @@ function Servicios() {
                   finanzas, para una buena toma de decisiones y pueda alcanzar
                   sus objetivos y crecimiento.
                 </p>
-                <a href="/Servicios/Asesoria-financiera">
+                <a href="/Asesoria-financiera">
                   <button className="btn-serv">Más información</button>
                 </a>
               </div>
