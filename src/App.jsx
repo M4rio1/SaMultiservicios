@@ -23,16 +23,10 @@ function App() {
           <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/Contacto" element={<Contacto />} />
           <Route path="/Blog" element={<Blog />} />
-          <Route path="/asesoria-financiera" element={<AsesoriaFinanciera />} />
-          <Route
-            path="/Servicios/servicios-contables"
-            element={<ServiciosContables />}
-          />
-          <Route
-            path="/Servicios/auditoria-estados"
-            element={<AuditoriaEstados />}
-          />
-          <Route path="/Servicios/Tramites" element={<Tramites />} />
+          <Route path="/Asesoria-financiera" element={<AsesoriaFinanciera />} />
+          <Route path="/servicios-contables" element={<ServiciosContables />} />
+          <Route path="/auditoria-estados" element={<AuditoriaEstados />} />
+          <Route path="/Tramites" element={<Tramites />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
